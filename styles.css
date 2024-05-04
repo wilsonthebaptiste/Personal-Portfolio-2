@@ -795,3 +795,9 @@ color: var(--main-color);
         opacity: 0;
     }
 }
+
+@keyframes showRight{
+    100%{
+        width: 0;
+    }
+}
