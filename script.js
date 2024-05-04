@@ -33,4 +33,8 @@ sections.forEach(sec => {
 
     header.classList.toggle('sticky', window.scrollY > 100);
 
+//this will remove the toggle icon and navbar when a navbar link is clicked
+    menuIcon.classList.remove('bx-x')
+    navbar.classList.remove('active')
+
 }
