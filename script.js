@@ -24,7 +24,9 @@ sections.forEach(sec => {
         navLinks.forEach(links =>{
             links.classList.remove('active');
             document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
-        })
+        });
+        // This will activate animations for sections on scroll
+        sec.classList.add('show-animate');
     }
 })
 
