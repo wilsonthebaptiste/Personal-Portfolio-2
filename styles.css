@@ -93,6 +93,8 @@ section{
 }
 
 .home-content h1 {
+    position: relative;
+    display: inline-block;
     font-size: 5.6rem;
     font-weight: 700;
     line-height: 1.3;
@@ -618,7 +620,10 @@ color: var(--main-color);
     z-index: 98;
 }
 
-.logo .animate, .navbar .animate, #menu-icon .animate{
+.logo .animate,
+.navbar .animate, 
+#menu-icon .animate, 
+.home.show-animate .animate {
     animation: showRight 1s ease forwards;
     animation-delay: calc(0.3s * var(--i));
 }
