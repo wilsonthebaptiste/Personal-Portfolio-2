@@ -98,7 +98,7 @@
                         <h3>Master Degree - University</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eos, incidunt minima suscipit dolorum soluta doloremque eaque consequatur! Veniam, commodi.</p>
                     </div>
-                </div>-->
+                </div>--> <!--This is commented out because there may be use for it in the future as I learn more-->
 
             </div>
         </div>
@@ -204,10 +204,10 @@
 <section class="contact" id="contact">
     <div class="h2 heading">Contact <span>Me!</span></div>
 
-    <form action="#">
+    <form action="https://formspree.io/f/xayrvvnb" method="POST">
         <div class="input-box">
             <div class="input-field">
-                <input type="text" placeholder="Full Name" required>
+                <input type="text" placeholder="Full Name" name="name" required>
                 <span class="focus"></span>
             </div>
             <div class="input-field">
@@ -218,17 +218,17 @@
 
         <div class="input-box">
             <div class="input-field">
-                <input type="number" placeholder="Mobile Number" required>
+                <input type="number" placeholder="Mobile Number" name="number" required>
                 <span class="focus"></span>
             </div>
             <div class="input-field">
-                <input type="text" placeholder="Email Subject" required>
+                <input type="text" placeholder="Email Subject" name ="subject" required>
                 <span class="focus"></span>
             </div>
         </div>
 
         <div class="textarea-field">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
             <span class="focus"></span>
         </div>
 
